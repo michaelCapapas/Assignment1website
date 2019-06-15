@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Assignment 1</title>
+
+<style>
+.item1 { grid-area: header;
+	border:2px solid MediumSeaGreen;
+	background-image: url("byThePool.jpg");
+	background-size: cover;
+	text-align: right;
+	font-size: 50px;
+	color: red;
+}
+
+.item2 { grid-area: personal; 
+	background-color: rgba(218, 255, 174, 0.5);
+	text-align: justify;
+	 font-size: 15px;
+}
+
+.item3 { grid-area: test; 
+	background-color: rgb(240, 240, 240);
+	text-align: justify;
+	font-size: 15px;
+
+}
+.item4 { grid-area: right; 
+	background-color: rgba(255, 255, 174, 0.2);
+	background-image: url("byThePool.jpg");
+	background-size: cover;
+	text-align: justify;
+	font-size: 20px;
+	color: white;
+	text-shadow: 2px 1px black;
+}
+
+.item5 { grid-area: picture; 
+	background-image: url("pattern.jpg");
+	background-size: cover;
+}
+.item6 { grid-area: main; 
+	text-align: justify;	
+}
+
+
+.item7 { grid-area: reference; 
+	background-color:rgba(180, 180, 180, 0.5);
+	font-size: 12px;
+}
+
+.item8 { grid-area: space;
+	
+}
+
+.item9 { grid-area: blank;
+background-color:rgba(255, 160, 180, 0.5);
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'blank picture main main main main '
+    'blank personal main main main main '
+	'space space space space space space'
+	'right right right right test test'
+    'reference reference reference reference reference reference';
+	
+	/*grid border*/	
+  grid-gap: 5px;
+  padding: 5px;
+}
+
+.grid-container > div {
+  padding: 5px 10px;
+}
+</style>
+<header>
+  <h2></h2>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="item1">Michael Capapas</div>
+  <div class="item2"><h2>Personal Information</h2>
+	<h3>Education</h3>
+	<li>Bachelor of Fine arts</li> 
+	<li>Post-graduate Diploma Education </li> 
+	<li>Post-graduate Diploma in TESOL.</li> 
+	</ul>
+	
+	<p><b>Interesting facts:</b></p>
+		<li>I had a solo art exhibition in Chicago, USA. </li>
+		<li>I played club soccer for several years. </li>
+		<li>I have studied classical guiter.</li>
+		<li>I am currently studying flamenco guitar. </li>
+		</div>
+  <div class="item3">
+  <h2>Online test result</h2>
+   
+     <p><b>Learning Styles </b><a href="http://www.educationplanner.org/students/self-assessments/learning-styles-styles.shtml">(Educational Planner)</a></p>
+		<li>Auditory: 15%</li> 
+		<li>Visual: 60% </li>
+		<li>Tactile: 25%</li>
+	  
+     <p><b><a href="https://www.truity.com/personality-test/13683/test-results/7929417">The Big Five Personality Test</a></b></p>
+		<li>Openness: 94%</li> 
+		<li>Conscientiousness: 58%</li>
+		<li>Extraversion: 44%</li> 
+		<li>Agreeableness: 67%</li>
+		<li>Neuroticism: 37.5%</li>
+		
+	<p><b>Myers-Briggs Type Indicator Personality Test Results </b></p>
+	<p><a href="https://psychcentral.com/quizzes/personality/start.php">psychcentral</a></p>
+	<p>Introverted - Sensing - Thinking - Judging (ISTJ)</p>
+	<p>Read up more about the ISTJ type on <a href="https://en.wikipedia.org/wiki/ISTJ">wikipedia</a></p>
+	<p></p> 
+  </div> 
+  
+  <div class="item4">
+	<h4>My interest in IT</h4>
+	<p>First experience of computers was when my dad bought the Nintendo with Robotic Operating Buddy. I was hooked, I wanted to know more about it. But my parents couldn’t afford to buy more games and there wasn’t anybody that could tell me how it worked. At the time I was at local public school in a low socio-economic suburb, I was the only one that had a game console. At the time I didn’t think it was possible for me to program games or pursue IT career. 
+	<p>Years later doing my Bachelor Fine Arts where I rediscovered my interest. I learnt how to use Photoshop and took computer animation for one semester. 
+	<p>My current interest in IT is for educational purposes (teaching) and recreation (Arduino projects). </p> 
+	<p>I started Information Technology last year online at Latrobe University. I decided to change to RMIT because of better reputation in IT courses.  The main reason for doing this course, it is because I know how vital the IT role in Education and educating children.</p>
+	
+	<h4>My Goal</h4>
+	<p>My ideal IT job would be to create my own start up company. Start up that is used in education. Having taught for more than 10 years I know that IT is an integral part of this industry. IT has provided great teaching resources and tools inside and outside the classrooms. I believe it will help to bring better education for children in remote communities and children from low socio-economic background.</p>
+  </div>
+  
+  <div class="item5"></div>
+  
+  <div class="item6">
+    <h1>Project Idea</h1>
+    <p>This project idea is based on my personal goal where all children have access to good education and access to good quality information. As we all have been told that the pathways to economic success is the undertaking of additional years of education. The better educated are usually characterised by lower rates of unemployment, higher earnings and more prestigious occupational standing. </p>
+	<p>To begin with I propose to create a project that targets local schools then hopefully go global.  In the UNESCO website <a href="http://www.unesco.org/new/en/gefi/priorities/quality-of-learning">(http://www.unesco.org/new/en/gefi/priorities/quality-of-learning)</a>  they point out that there are 57 million children out of school and 617 million youth worldwide lack the basic mathematics and literacy skills. 
+	Ben Edwards and Jennifer Baxter article (2014) examined access to educational services in the disadvantage region in Australia. They point out that Australian children in regional areas have poorer learning outcomes.</p>
+	<p><b>My proposal</b> is to create a free access to online library for secondary and primary schools and students. This library is like the way university online libraries works. The difference is that content will be age appropriate and will have a look of a search engine. 
+	Students will have 10 days free access to digital books, audios, pictures and videos. </p>
+	<p>Currently it is very difficult for student to do any proper research on the internet, because they are constantly having to filter advertisements and fake or incorrect information. The current filter that is used in government school doesn’t work. When students search for information online sometimes good websites are blocked and bad ones are not. In my many years of teaching experience I still struggle to monitor and guide students while they research online. Often, I have directed students to websites that I have vetted, but because student access are restricted students are then left with information that I can’t be sure its correct and safe. The current government school online is not able to distinguish between good and bad online content. There are so many local libraries that offer online access to books, it would be great be able to have access to them in one site.</p>
+  </div>
+
+  <div class="item7">
+    <p>Reference:   Edwards, Ben and Baxter, Jennifer. The tyrannies of distance and disadvantage: Factors related to children's development in regional and disadvantaged areas of Australia [online]. Journal of the Home Economics Institute of Australia, Vol. 21, No. 1, 2014: 14-18. </p>
+  </div>
+   <div class="item8"></div>
+   <div class="item9"></div>
+</div>
+
+</body>
+</html>
